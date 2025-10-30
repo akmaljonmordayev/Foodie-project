@@ -1,7 +1,7 @@
 import React from "react";
 import "./Section4.css";
-import imagis from "/public/images/12.png";
-import imais from "/public/images/23.png";
+import imagis from "/public/images/12.jpg";
+import imais from "/public/images/23.jpg";
 function Section4() {
   return (
     <section>
