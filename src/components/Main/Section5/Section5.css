@@ -1,0 +1,230 @@
+.title {
+  color: #ff6868;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 17.5%;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  animation: fadeInUp 1s ease both;
+}
+.header {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+  width: 700px;
+  margin-bottom: 55px;
+}
+.info {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 26px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #555555;
+  width: 600px;
+  margin-bottom: 55px;
+}
+.btn {
+  color: white;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 25px 60px;
+  background-color: #39db4a;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+/* Карточка */
+.card {
+  padding: 30px 40px;
+  box-shadow: 7px 12px 43px 0px #00000024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 16px 45px 0px #00000033;
+}
+
+/* Текст */
+.card > h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5fe26c;
+}
+
+.card > p {
+  color: #90bd95;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  width: 220px;
+}
+
+/* Иконка */
+.card img {
+  width: 50px;
+  height: 50px;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(91%) saturate(556%)
+    hue-rotate(81deg) brightness(95%) contrast(96%);
+}
+
+/* 📱 Адаптация под мобильные устройства */
+@media (max-width: 768px) {
+  .right {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    width: 90%;
+    padding: 25px 30px;
+  }
+
+  .card > h4 {
+    font-size: 20px;
+  }
+
+  .card > p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+.title:hover {
+  color: #ff4444;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 60px;
+  color: black;
+  width: 700px;
+  margin-bottom: 40px;
+  line-height: 110%;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.header:hover {
+  transform: translateY(-5px);
+  color: #39db4a;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 160%;
+  color: #555;
+  width: 600px;
+  margin-bottom: 50px;
+  transition: color 0.3s ease;
+}
+
+.info:hover {
+  color: #39db4a;
+}
+
+/* Кнопка */
+.btn {
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  padding: 25px 60px;
+  background-color: #39db4a;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(57, 219, 74, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2ecc40;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(57, 219, 74, 0.4);
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 6px 14px rgba(57, 219, 74, 0.3);
+}
+
+/* 🔥 Анимация появления */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Адаптация под мобильные устройства */
+@media (max-width: 768px) {
+  .header {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .info {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 18px 45px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left {
+    align-items: center;
+  }
+}
