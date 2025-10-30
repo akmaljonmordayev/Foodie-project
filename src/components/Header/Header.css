@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 60px 40px 60px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+li {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #272727;
+}
+li:hover {
+  color: #39db4a;
+}
+.san {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.san button {
+  border: none;
+  background-color: #39db4a;
+  border-radius: 40px;
+  padding: 15px 40px;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.san button:hover {
+    border: 1px solid #39db4a;
+    background-color: transparent;
+    color: #39db4a;
+}
