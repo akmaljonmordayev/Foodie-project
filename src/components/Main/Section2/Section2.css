@@ -1,70 +1,63 @@
-.sect2 p{
-color: #FF6868;
-font-weight: 700;
-font-style: Bold;
-font-size: 20px;
-line-height: 100%;
-text-align: center;
-margin-bottom: 20px;
+.sect2 p {
+  color: #ff6868;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.sect2 h3{
-font-weight: 700;
-font-style: Bold;
-font-size: 60px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
+.sect2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 
-.card h4{
-font-weight: 600;
-font-size: 30px;
-line-height: 100%;
-letter-spacing: 0%;
-margin-top: 38px;
-margin-left: 91px;
+.sect2 h3 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.card p{
-    color: #555555;
-font-family: Inter;
-font-weight: 500;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
-margin-top: 12px;
-margin-left: 103px;
+.card h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 38px;
 }
 
-.card img{
-    margin-left: 93px;
-    margin-top: 60px;
-    background-color: #C1F1C6;
-     width: 153px;
-opacity: 1;
-border-radius: 100px;
-
+.card p {
+  color: #555555;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 12px;
 }
 
-.card{
-    box-shadow: 2px 10px 30px 0px #0000001A;
-width: 326px;
-height: 326px;
-top: 1406px;
-left: 155px;
-opacity: 1;
-border-radius: 40px;
-
+.card img {
+  background-color: #c1f1c6;
+  width: 153px;
+  opacity: 1;
+  border-radius: 100px;
 }
 
-.card:hover{
-    
+.card {
+  box-shadow: 2px 10px 30px 0px #0000001a;
+  height: 300px;
+  padding: 38px 50px;
+  opacity: 1;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.sect-card{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 30px;
-}
