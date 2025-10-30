@@ -1,0 +1,82 @@
+.foods{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.card-food{
+width: 420px;
+height: 480px;
+background-color: #FFFFFF;
+box-shadow: 2px 9px 42px  #00000014;
+border-radius: 40px;
+padding: 35px 85px;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+.cards{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 63px;
+  margin-bottom: 50px;
+}
+.card-food .star{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.sect3 .qiz{
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 17.5%;
+text-transform: uppercase;
+color: #FF6868;
+margin-bottom: 40px;
+}
+.sect3 {
+  padding: 150px 100px;
+}
+.sect3 h1{
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 60px;
+line-height: 132%;
+letter-spacing: 0%;
+color: #000000;
+width: 580px;
+}
+.card-food .op{
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+.card-food p{
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #555555;
+}
+.card-food .yu{
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
